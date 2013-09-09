@@ -1,2 +1,3 @@
 - git: {local-name: bundle/vim-markdown, uri: 'https://github.com/plasticboy/vim-markdown'}
 - git: {local-name: pathogen, uri: 'https://github.com/tpope/vim-pathogen'}
+- git: {local-name: bundle/dogmatic, uri: 'https://github.com/mrmargolis/dogmatic.vim'}
