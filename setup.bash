@@ -9,7 +9,7 @@ else
   git clone https://github.com/mikepurvis/vim.git ~/.vim
 fi
 
-wstool update
+wstool update -t ~/.vim
 
 if [ -f ~/.vimrc ]; then
   mv ~/.vimrc{,.bak}
