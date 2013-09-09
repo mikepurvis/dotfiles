@@ -21,8 +21,17 @@ set ts=2
 set sw=2
 set cindent
 
+" Glob all the plugins in the bundle directory.
 call pathogen#infect()
 
 " Open all code folds on startup
 set foldmethod=syntax
 au BufRead * normal zR
+
+" Shortcuts for the ros plugin functions
+noremap <Leader>rc :<C-u>Roscd<space>
+noremap <Leader>re :<C-u>Rosed<space>
+
+" Better tab completion
+set wildmode=longest,list,full
+set wildmenu
