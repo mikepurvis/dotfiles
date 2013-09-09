@@ -7,7 +7,7 @@ if [ "$(pwd)" == "${HOME}/.vim" ]; then
     echo "Repo already present in ~/.vim, skipping clone."
   else
     echo "Path ~/.vim already exists, but is not a clone of this repo."
-    echo "Back up and remove previous ~/.vimrc and run setup script again."
+    echo "Back up and remove previous ~/.vim folder and run setup script again."
     exit 1
   fi
 else
