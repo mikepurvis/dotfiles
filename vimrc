@@ -35,3 +35,5 @@ noremap <Leader>re :<C-u>Rosed<space>
 " Better tab completion
 set wildmode=longest,list,full
 set wildmenu
+
+colorscheme black_angus
