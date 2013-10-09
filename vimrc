@@ -25,8 +25,9 @@ set cindent
 call pathogen#infect()
 
 " Open all code folds on startup
-set foldmethod=syntax
-au BufRead * normal zR
+" set foldmethod=syntax
+" au BufRead * normal zR
+set nofoldenable
 
 " Shortcuts for the ros plugin functions
 noremap <Leader>rc :<C-u>Roscd<space>
