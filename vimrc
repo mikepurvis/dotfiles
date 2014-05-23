@@ -37,4 +37,13 @@ noremap <Leader>re :<C-u>Rosed<space>
 set wildmode=longest,list,full
 set wildmenu
 
+" Strip trailing whitespace on save
+fun! <SID>StripTrailingWhitespaces()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    call cursor(l, c)
+endfun
+autocmd FileType c,cpp,java,php,ruby,python autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
+
 colorscheme black_angus
