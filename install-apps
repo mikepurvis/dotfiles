@@ -7,16 +7,16 @@ brew update
 
 # Install some apps
 brew install caskroom/cask/brew-cask
-brew cask install <<END
-1password
-android-file-transfer
-backblaze
-firefox
-google-chrome
-skype
-teamviewer
-utorrent
-viscosity
-vlc
+brew cask install \
+1password \
+android-file-transfer \
+backblaze \
+dropbox \
+firefox \
+google-chrome \
+skype \
+teamviewer \
+utorrent \
+viscosity \
+vlc \
 xquartz
-END
