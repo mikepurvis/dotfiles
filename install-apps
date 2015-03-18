@@ -20,10 +20,13 @@ dropbox \
 firefox \
 google-chrome \
 packer \
+parallels-desktop \
+parallels-virtualization-sdk \
 skype \
 teamviewer \
 utorrent \
 vagrant \
+virtualbox \
 viscosity \
 vlc \
 xquartz
