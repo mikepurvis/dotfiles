@@ -5,6 +5,11 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor
 brew update
 
+brew install \
+docker
+git
+homebrew/dupes/rsync \
+
 # Install some apps
 brew install caskroom/cask/brew-cask
 brew cask install \
@@ -14,9 +19,11 @@ backblaze \
 dropbox \
 firefox \
 google-chrome \
+packer \
 skype \
 teamviewer \
 utorrent \
+vagrant \
 viscosity \
 vlc \
 xquartz
