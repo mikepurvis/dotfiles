@@ -1,0 +1,11 @@
+.archive.ubuntu.com 
+ports.ubuntu.com 
+security.ubuntu.com
+archive.canonical.com
+extras.ubuntu.com
+changelogs.ubuntu.com
+ppa.launchpad.net
+keyserver.ubuntu.com
+
+packages.ros.org
+packages.clearpathrobotics.com
