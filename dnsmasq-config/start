@@ -1,0 +1,2 @@
+#!/bin/bash
+sudo /usr/local/opt/dnsmasq/sbin/dnsmasq -C dnsmasq.conf -d
