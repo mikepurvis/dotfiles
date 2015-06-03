@@ -8,6 +8,7 @@ brew update
 brew install \
 docker
 git
+gpg
 homebrew/dupes/rsync \
 
 # Install some apps
@@ -19,6 +20,7 @@ backblaze \
 dropbox \
 firefox \
 google-chrome \
+osxfuse \
 packer \
 parallels-desktop \
 parallels-virtualization-sdk \
